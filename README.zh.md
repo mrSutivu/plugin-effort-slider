@@ -10,7 +10,9 @@
 
 ![输入框中的 Effort Slider 胶囊](docs/banner-slider.png)
 
-![带滑杆胶囊的输入框布局](docs/screenshot-composer.png)
+| 深色 | 浅色 |
+| ---- | ---- |
+| ![深色主题输入框](docs/screenshot-composer.png) | ![浅色主题输入框](docs/screenshot-light.png) |
 
 ## 功能
 

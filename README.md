@@ -10,6 +10,9 @@ A notched **reasoning-effort slider** for [DeepSeek Harness (DSH)](https://githu
 
 ![Effort slider pill live in the composer](docs/banner-slider.png)
 
+| Dark | Light |
+| ---- | ----- |
+| ![Composer in dark theme](docs/screenshot-composer.png) | ![Composer in light theme](docs/screenshot-light.png) |
 
 ## Features
 
