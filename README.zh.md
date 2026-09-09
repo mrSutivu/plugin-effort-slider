@@ -90,6 +90,14 @@ dsh plugin --profile web remove plugin-effort-slider
 
 欢迎 Issues 与 PR——尤其是新语言字典、主题边界情况与各 provider 档位数差异。
 
+## 支持
+
+永久免费，MIT 协议。如果这个滑杆每天为你省下不少点击，请我喝杯咖啡，它就会一直维护下去：
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mrsutivu)
+
+GitHub Sponsors 也行（等入驻审核通过）：[github.com/sponsors/mrSutivu](https://github.com/sponsors/mrSutivu)。
+
 ## 协议
 
 MIT © Sutivu

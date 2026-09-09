@@ -89,6 +89,14 @@ No build. Edit `lib/client.js` and refresh. `lib/index.js` is an empty host entr
 
 Issues and PRs welcome. New locale dictionaries make the easiest first contribution. Theme edge cases and provider quirks matter most, since effort counts differ per model.
 
+## Support
+
+Free forever, MIT. If the slider saves you clicks every day, a coffee keeps it maintained:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mrsutivu)
+
+GitHub Sponsors works too, once onboarding clears: [github.com/sponsors/mrSutivu](https://github.com/sponsors/mrSutivu).
+
 ## License
 
 MIT © Sutivu
