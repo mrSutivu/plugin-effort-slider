@@ -8,7 +8,6 @@ A notched **reasoning-effort slider** for [DeepSeek Harness (DSH)](https://githu
 
 ![Effort slider pill live in the composer](docs/banner-slider.png)
 
-![Composer layout with the slider pill](docs/screenshot-composer.png)
 
 ## Features
 
