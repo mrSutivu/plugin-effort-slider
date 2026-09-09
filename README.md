@@ -4,6 +4,8 @@
 ![DSH](https://img.shields.io/badge/DSH-plugin-6b8afd)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
+**English** | [中文](README.zh.md)
+
 A notched **reasoning-effort slider** for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) — like Codex / Claude Code, but native to the DSH composer. Pick a model and drag the effort in one rounded pill, right where you type.
 
 ![Effort slider pill live in the composer](docs/banner-slider.png)
