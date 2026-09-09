@@ -1,0 +1,6 @@
+# plugin-effort-slider — pure client bundle, dummy host row (required by the patch layer).
+# The patch inserts one host-side row that does nothing; all the work happens in
+# lib/client.js. Fully modular: zero changes to the DSH core, shareable via `dsh plugin add`.
+- insert:
+    - id: effort-slider
+      name: plugin-effort-slider

@@ -1,0 +1,50 @@
+{
+  "name": "plugin-effort-slider",
+  "version": "1.2.0",
+  "description": "Notched reasoning-effort slider grouped with the model picker for DeepSeek Harness — native DSH styling, adaptive theming (light/dark + theme plugins), i18n (en/fr/zh), realtime drag. 100% modular, zero core changes.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrSutivu/plugin-effort-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrSutivu/plugin-effort-slider/issues"
+  },
+  "homepage": "https://github.com/mrSutivu/plugin-effort-slider#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "effort",
+    "slider",
+    "reasoning",
+    "model-picker",
+    "themeable",
+    "i18n"
+  ],
+  "author": "Sutivu"
+}

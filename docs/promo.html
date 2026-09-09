@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1200px; height:630px; overflow:hidden;
+    font-family:"Segoe UI", system-ui, -apple-system, sans-serif;
+    background:#070b18;
+    color:#fff;
+    position:relative;
+  }
+  .bg {
+    position:absolute; inset:0;
+    background:
+      radial-gradient(700px 420px at 12% -10%, rgba(107,138,253,0.35), transparent 60%),
+      radial-gradient(620px 420px at 95% 110%, rgba(76,111,255,0.28), transparent 60%),
+      radial-gradient(500px 300px at 85% 8%, rgba(167,139,250,0.16), transparent 60%),
+      linear-gradient(160deg, #0a1024 0%, #070b18 55%, #0a0f22 100%);
+  }
+  .grid {
+    position:absolute; inset:0; opacity:0.5;
+    background-image:linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+                     linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size:48px 48px;
+    mask-image:radial-gradient(800px 480px at 50% 40%, #000 30%, transparent 75%);
+  }
+  .content { position:relative; padding:56px 64px; height:100%; display:flex; flex-direction:column; }
+  .badge {
+    display:inline-flex; align-items:center; gap:8px; align-self:flex-start;
+    font-size:15px; font-weight:600; letter-spacing:2.5px;
+    color:#aebfff; border:1px solid rgba(107,138,253,0.45); border-radius:999px;
+    padding:7px 18px; background:rgba(107,138,253,0.10);
+  }
+  .badge .dot { width:8px; height:8px; border-radius:50%; background:#6b8afd; box-shadow:0 0 10px #6b8afd; }
+  h1 { font-size:68px; font-weight:800; letter-spacing:-1px; margin-top:22px; line-height:1.02; }
+  h1 .accent {
+    background:linear-gradient(92deg, #8ba2ff 0%, #6b8afd 45%, #a78bfa 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .sub { font-size:23px; color:#b9c2e2; margin-top:10px; font-weight:400; }
+  .shot {
+    margin-top:30px; border-radius:18px; overflow:hidden;
+    border:1px solid rgba(255,255,255,0.14);
+    box-shadow:0 24px 70px rgba(0,0,0,0.55), 0 0 0 1px rgba(0,0,0,0.4), 0 0 90px rgba(107,138,253,0.12);
+  }
+  .shot img { display:block; width:100%; }
+  .feats { display:flex; gap:12px; margin-top:24px; }
+  .feat {
+    font-size:16px; font-weight:600; color:#cdd6f7;
+    border:1px solid rgba(255,255,255,0.12); background:rgba(255,255,255,0.04);
+    border-radius:999px; padding:8px 18px 8px 14px;
+    display:inline-flex; align-items:center; gap:9px;
+  }
+  .feat i { width:7px; height:7px; border-radius:50%; background:#6b8afd; box-shadow:0 0 8px #6b8afd; }
+  .foot { margin-top:auto; display:flex; align-items:center; gap:16px; }
+  .cmd {
+    font-family:Consolas, "Cascadia Code", monospace; font-size:17px; color:#e8edff;
+    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
+    border-radius:12px; padding:12px 20px;
+  }
+  .cmd b { color:#8ba2ff; font-weight:600; }
+  .tags { margin-left:auto; font-size:16px; color:#8b96c2; letter-spacing:1px; }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grid"></div>
+  <div class="content">
+    <div class="badge"><span class="dot"></span>DSH PLUGIN&nbsp;&nbsp;·&nbsp;&nbsp;v1.2.0</div>
+    <h1>Effort <span class="accent">Slider</span></h1>
+    <div class="sub">Model picker + reasoning-effort slider, right in the DeepSeek Harness composer.</div>
+    <div class="shot"><img src="screenshot-composer.png" alt="Effort slider in the DSH composer"></div>
+    <div class="feats">
+      <div class="feat"><i></i>Direct model list</div>
+      <div class="feat"><i></i>Realtime notched drag</div>
+      <div class="feat"><i></i>Max-effort shimmer</div>
+      <div class="feat"><i></i>Fully themeable</div>
+    </div>
+    <div class="foot">
+      <div class="cmd"><b>$</b> dsh plugin --profile web add github:mrSutivu/plugin-effort-slider</div>
+      <div class="tags">EN · FR · ZH&nbsp;&nbsp;&nbsp;MIT</div>
+    </div>
+  </div>
+</body>
+</html>
