@@ -31,6 +31,10 @@
 - DeepSeek Harness（`dsh`）+ `web` profile。
 - 支持推理强度的模型（仅此时显示滑杆，如 `low / medium / high / xhigh`）。
 
+## 兼容性与权限
+
+需要 `web` profile（composer slots、模型目录、locale）。纯前端 UI，无需 host 权限，无网络请求，无外部服务。在 DSH `0.1.2-alpha` 上测试通过。
+
 ## 安装
 
 从 GitHub 安装（无需 npm 账号）：
