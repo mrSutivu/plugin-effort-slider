@@ -6,7 +6,7 @@
 
 A notched **reasoning-effort slider** for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) — like Codex / Claude Code, but native to the DSH composer. Pick a model and drag the effort in one rounded pill, right where you type.
 
-![Slider next to the model picker](docs/screenshot-slider.png)
+![Effort slider pill live in the composer](docs/banner-slider.png)
 
 ![Composer layout with the slider pill](docs/screenshot-composer.png)
 
