@@ -33,7 +33,7 @@
 
 ## 兼容性与权限
 
-需要 `web` profile（composer slots、模型目录、locale）。纯前端 UI，无需 host 权限，无网络请求，无外部服务。在 DSH `0.1.2-alpha` 上测试通过。
+需要 `web` profile（composer slots、模型目录、locale）。纯前端 UI，无需 host 权限，无需凭据，无网络请求，无外部服务，`web` profile 能跑的地方（Windows、macOS、Linux）都能用。在 DSH `0.1.2-alpha` 上测试通过。限制：仅当模型开放推理档位时显示。
 
 ## 安装
 

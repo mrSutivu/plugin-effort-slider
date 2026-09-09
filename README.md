@@ -32,7 +32,7 @@ DSH with the `web` profile, and a model that exposes reasoning efforts. No effor
 
 ## Compatibility and permissions
 
-Needs the `web` profile (composer slots, model directory, locale). Pure client UI. No host permissions, no network calls, no external services. Tested on DSH `0.1.2-alpha`.
+Needs the `web` profile (composer slots, model directory, locale). Pure client UI. No host permissions, no credentials, no network calls, no external services. Runs wherever the `web` profile runs. Tested on DSH `0.1.2-alpha`. Limitation: the pill only shows for models exposing reasoning efforts.
 
 ## Install
 
