@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.2
+
+- Native selector detection now matches the current model name, so a third-party menu button in the same row can never be hidden by mistake.
+- Declared minimum engine version (`dsh.engines.dsh >= 0.1.2-alpha`).
+
 ## 1.2.1
 
 - Fix crash when switching to a single-effort model: all hooks now run unconditionally, so coming back to a multi-effort model no longer needs a page reload.

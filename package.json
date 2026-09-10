@@ -1,6 +1,6 @@
 {
   "name": "plugin-effort-slider",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Notched reasoning-effort slider grouped with the model picker for DeepSeek Harness — native DSH styling, adaptive theming (light/dark + theme plugins), i18n (en/fr/zh), realtime drag. 100% modular, zero core changes.",
   "type": "module",
   "main": "./lib/index.js",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/mrSutivu/plugin-effort-slider#readme",
   "dsh": {
+    "engines": {
+      "dsh": ">=0.1.2-alpha"
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
     },
