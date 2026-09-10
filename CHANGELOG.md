@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Fix crash when switching to a single-effort model: all hooks now run unconditionally, so coming back to a multi-effort model no longer needs a page reload.
+
 ## 1.2.0
 
 - Full codebase and comments in English; debug logs removed.
